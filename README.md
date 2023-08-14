@@ -2,7 +2,7 @@
 
 This product aims to provide ground irradiance estimation at Synergy Technology Co., Ltd. by using a cloud attenuation model that takes cloud cover index extracted from Himawari-8 satellite as an input.
 <p align="center">
-  <img src="https://github.com/NuttamonThungka/Predict_irradiance/assets/113121308/3dc3441f-f308-4e45-b666-9ae9fa957884" width="900" height="500" />
+  <img src="https://github.com/NuttamonThungka/Predict_irradiance/assets/113121308/3dc3441f-f308-4e45-b666-9ae9fa957884" width="800" height="400" />
 </p>
 
 ## Web app
