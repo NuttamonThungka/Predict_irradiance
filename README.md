@@ -16,5 +16,5 @@ This product aims to provide ground irradiance estimation at Synergy Technology 
 
 
 This repository is composed of the following folders
-- **trainning** are utilized for downloading data, cleaning it, and generating datasets. And contains training code for the Cloud Attenuation model. There are three groups in total: Regression, Tree-based, and CNNs models.
+- **trainning** are utilized for downloading data, cleaning it, and generating datasets. And contains training code for the models. There are 5 model: linear regression, polynomial regression, randomforest, XGBoost and CNN model.
 - **Implementation** is used for implement code with contain app to deploy the deshboard.
