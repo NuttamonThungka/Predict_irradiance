@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import os
-import pickle
 import joblib
 import numpy as np
 from datetime import datetime
