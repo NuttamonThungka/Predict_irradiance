@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
 import plotly.express as px
 import os
 import pickle
@@ -8,15 +7,8 @@ import joblib
 import numpy as np
 from datetime import datetime
 from PIL import Image
-from datetime import datetime, timedelta
-import time as time_lib
 import matplotlib.pyplot as plt
-import seaborn as sns
-import scipy
-from scipy.stats import gaussian_kde
-import matplotlib.dates as mdates
 from sklearn.metrics import mean_absolute_error, mean_squared_error
-from PIL import Image
 
 
 # Load your irradiance data DataFrame
@@ -150,7 +142,6 @@ def group_table(df, name_model, base = 'I', score = 'MAE', by = None):
     
 FOLDER_MODEL = '/Users/khunnoot/Desktop/predict_irradiance/trainning/model'
 result_model = 'compare_model_result.csv'
-sns.set(style="whitegrid")
 compare = pd.read_csv(os.path.join(FOLDER_MODEL,result_model), parse_dates = ['Datetime'], index_col = ['Datetime'])
 
 
